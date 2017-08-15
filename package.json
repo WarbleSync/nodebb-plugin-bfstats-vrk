@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-bfstats-vrk",
+  "version": "0.0.1",
+  "description": "nodebb-plugin-bfstats-vrk",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warblesync/nodebb-plugin-bfstats-vrk"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "nodebb-plugin-bfstats-vrk"
+  ],
+  "author": {
+    "name": "warblesync",
+    "email": "warblesync@gmail.com"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/warblesync/nodebb-plugin-bfstats-vrk/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "battlefield-stats": "^1.0.8",
+    "cron-parser": "^2.4.1",
+    "lodash": "^4.17.4"
+  }
+}
